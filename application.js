@@ -387,9 +387,9 @@ class Map {
     this.map = L.map('mapid', {
       crs: L.CRS.pr,
       preferCanvas: true,
-      minZoom: 0,
+      minZoom: 1,
       maxZoom: 5,
-      zoom: 0,
+      zoom: 1,
       zoomSnap: 0.5,
       center: xy(2816, 2220),
       maxBounds: [xy(0, 0), xy(5632, 4440)]
